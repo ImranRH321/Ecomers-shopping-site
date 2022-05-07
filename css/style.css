@@ -1,0 +1,65 @@
+body {
+  box-sizing: border-box;
+}
+
+
+/* banner one start */
+.banner-backgrouond{
+  background-image: url("../image/hero4.png");
+   width: 100%;
+   height: 90vh;
+   background-position: top 25% right 0;
+   background-size: cover;
+}
+
+.padding{
+   padding: 40px 0 600px 100px !important;
+   padding-bottom: 500px;
+}
+@media only screen and (max-width: 500px) {
+  .banner-backgrouond > h3{
+    font-size: 18px;
+  } 
+}
+
+/* man container start banner  */
+/* ----------------------------------------------- */
+.background-img {
+  background-image: url("../image/banner/b1.jpg");
+  width: 100%;
+  height: 200px;
+}
+
+/* ---------------------------------------------------------- 
+    simple-dual-banner start
+-----------------------------\ */
+.one_banner {
+  background-image: url("../image/banner/b17.jpg");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 40px;
+}
+.display {
+  display: none;
+}
+.one_banner:hover .display {
+  display: block;
+}
+
+.two_banner {
+  background-image: url("../image/banner/b10.jpg");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 40px;
+}
+
+.two_banner:hover .display {
+  display: block;
+}
+
+/* !---------------------------------------!
+         simple-dual-banner end  */
